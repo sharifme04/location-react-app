@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Form renders with empty props 1`] = `
+<div
+  className="bar-container"
+>
+  <div
+    className="distance-bar"
+  >
+    <div
+      className="car"
+    >
+      <svg>
+        car-icon.svg
+      </svg>
+      <p>
+        24.1 km
+      </p>
+    </div>
+    <div
+      className="bus"
+    >
+      <svg>
+        bus-icon.svg
+      </svg>
+      <p>
+        24.8 km
+      </p>
+    </div>
+  </div>
+  <div
+    className="triangle-container"
+  >
+    <div
+      className="triangle"
+    />
+  </div>
+</div>
+`;

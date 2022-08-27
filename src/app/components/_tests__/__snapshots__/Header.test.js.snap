@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Form renders with  props 1`] = `
+<div>
+  <div>
+    <span
+      className="title"
+    >
+      Umweltrechner
+    </span>
+  </div>
+  <div
+    className="subtitle"
+  >
+    <span>
+      Umwelt und Preisvergleich zwischen VVS und Deinem Auto
+    </span>
+  </div>
+</div>
+`;
+
+exports[`snapshot Form renders with empty props 1`] = `
+<div>
+  <div>
+    <span
+      className="title"
+    />
+  </div>
+  <div
+    className="subtitle"
+  />
+</div>
+`;

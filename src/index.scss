@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "CircularStd-Bold";
+  src: url(./app/assets/fonts/CircularStd-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url(./app/assets/fonts/CircularStd-Book.otf)  format("opentype");
+}
+
+@font-face {
+  font-family: "CircularStd-Medium";
+  src: url(./app/assets/fonts/CircularStd-Medium.otf)  format("opentype");
+}
+
+
+body {
+  margin: 0;
+  font-family:'CircularStd-Book','CircularStd-Bold','CircularStd-Medium', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

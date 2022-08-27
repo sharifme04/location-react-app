@@ -1,0 +1,372 @@
+.home-font-check {
+  font-family: Circular-Bold;
+}
+
+.custom-style {
+  height: 78px;
+  background-color: #fc631e;
+}
+
+.menu-style {
+  margin-left: 10px;
+}
+
+.breadcrumb {
+  font-family: CircularStd-Book;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #000;
+}
+
+.headerContainer {
+  height: 225px;
+  width: auto;
+  margin-top: 78px;
+  padding: 19px 302px 69px 50px;
+  background-color: #f6f6f6;
+  margin-top: 78px;
+}
+
+.title {
+  margin: 20px 135px 12px 0;
+  font-family: CircularStd-Bold;
+  font-size: 48px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #000;
+}
+
+.subtitle {
+  margin: 12px 0 0;
+  font-family: CircularStd-Book;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+
+.slide-and-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -30px;
+  margin-left: 50px;
+  margin-right: 54px;
+}
+
+.search-location {
+  border-radius: 8px;
+  width: 335px;
+  height: 270px;
+  padding-left: 32px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.input-style {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 4px 0 0;
+  padding-top: 25px;
+  font-family: CircularStd-Book;
+  font-size: 14px;
+  color: #b4b4b4;
+  width: 224px;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #b4b4b4;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide {
+  /* margin-right: 20px; */
+}
+
+.card-title {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family: CircularStd-Bold;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #000;
+  margin-left: -12px;
+}
+
+.card-subtitle {
+  font-family: CircularStd-Book;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #666;
+  margin-left: -12px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-line {
+  height: 30px;
+  border-left-style: dotted;
+}
+
+.top-icon {
+  margin-left: -7px;
+}
+
+.bottom-icon {
+  margin-left: -8px;
+}
+
+.icons-column {
+  margin-top: 31px;
+  margin-right: 6px;
+}
+
+.right-arrow {
+  height: 25px;
+  align-self: center;
+  margin-top: 42px;
+  margin-right: 27px;
+}
+
+.weiterBtn {
+  width: 315px;
+  height: 44px;
+  margin: 28px 0 0;
+  padding: 13px 135px;
+  border-radius: 4px;
+  background-color: #fc631e;
+  margin-left: -22px;
+  border-color: #fc631e;
+  border-style: solid;
+  color: #fff;
+  font-family: CircularStd-Bold;
+  font-size: 14px;
+}
+
+.bar-container {
+  width: 541px;
+  margin: auto;
+  margin-top: -34px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+  background: linear-gradient(to right, #fff 0%, #fff 60%, #fc631e 60%, #fc631e 100%);
+}
+
+.distance-bar {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  height: 68px;
+  align-items: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 56px 68px 0;
+  border-color: transparent #fc631e transparent transparent;
+}
+
+.triangle-container {
+  margin-top: -68px;
+  margin-left: 269px
+}
+
+.car,
+.bus {
+  height: 62px;
+  font-family: CircularStd-Book;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bus {
+  color: #fff;
+}
+
+.details-card {
+  width: 160px;
+  height: 100px;
+  padding: 13px 65px 16px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.details-card-custom-style1 {
+  margin: 25px 15px 7px 29px;
+  background-color: #fff;
+}
+
+.details-card-custom-style2 {
+  margin: 25px 15px 7px 0px;
+  background-color: #fc631e;
+  color: #fff;
+  z-index: 1;
+}
+
+.details-card-title {
+  display: flex;
+  flex-direction: row;
+  font-family: CircularStd-Book;
+  font-size: 14px;
+  font-weight: normal;
+  width: 97px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.custom-card-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.details-card-subtitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-card-subtitle {
+  font-family: CircularStd-Bold;
+  margin-top: 35px;
+  margin-left: 29px;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.card-inner-title {
+  margin: 2px 0 9px 6px;
+  font-family: CircularStd-Book;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal
+}
+
+.card-weight {
+  height: 24px;
+  font-family: CircularStd-Bold;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.card-time {
+  font-family: CircularStd-Book;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.next-step {
+  margin: 7px 40px 0 185px;
+  font-family: CircularStd-Book;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #fc631e;
+}
+
+.upper-square {
+  width: 160px;
+  height: 86px;
+  margin-left: 7px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffcdb6;
+  margin-top: -93px;
+}
+
+.lower-square {
+  width: 160px;
+  height: 66px;
+  margin: 17px 0 17px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffe7dc
+}
+
+.card-layers {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -153px;
+  margin-right: 20px;
+  z-index: -1;
+}
+
+.link-subtitle {
+  font-family: CircularStd-Bold;
+  font-size: 22px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-stretch: normal;
+  font-style: normal;
+  //line-height: 1.09;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fc631e;
+
+}
+
+.suggestion-card{
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 52px;
+  margin-top: -86px;
+}
+.city{
+  color: #b4b4b4;
+  margin-bottom: 0px;
+}
+.area{
+  margin-bottom: 0px;
+}
+
+.loading{
+  margin: 10px;
+}
+
+.custom-border{
+  width: 60px;
+  height: 60px;
+}
+
+.custom-center {
+  margin-top: 250px;
+}

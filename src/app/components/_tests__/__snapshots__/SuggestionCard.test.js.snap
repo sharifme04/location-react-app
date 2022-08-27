@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Form renders with empty props 1`] = `null`;
+
+exports[`snapshot Form renders with props 1`] = `"0"`;
+
+exports[`snapshot Form renders with props data 1`] = `
+<div
+  className="suggestion-card"
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "width": "21rem",
+      }
+    }
+  >
+    <div
+      className="loading"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <div
+          aria-hidden="true"
+          className="spinner-border ms-auto"
+          role="status"
+        />
+      </div>
+      <p>
+        Standort verwenden
+      </p>
+    </div>
+    <ul
+      className="list-group list-group-flush"
+    >
+      <li
+        className="list-group-item"
+        onClick={[Function]}
+      >
+        <p
+          className="area"
+        />
+        <p
+          className="city"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

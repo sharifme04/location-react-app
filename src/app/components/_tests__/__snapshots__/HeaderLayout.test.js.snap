@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Form renders with  props 1`] = `
+<div
+  className="headerContainer"
+>
+  <div>
+    this is an element
+  </div>
+</div>
+`;
+
+exports[`snapshot Form renders with empty props 1`] = `
+<div
+  className="headerContainer"
+/>
+`;

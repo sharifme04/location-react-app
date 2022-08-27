@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Form renders with empty component 1`] = `
+<div
+  className="details-card undefined"
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="details-card-title"
+  />
+</div>
+`;
+
+exports[`snapshot Form renders with empty props 1`] = `
+<div
+  className="details-card details-card-custom-style1"
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="details-card-title"
+  >
+    <img
+      alt="logo-icon"
+      height="24"
+      src="logo-icon.png"
+      width="24"
+    />
+    <div
+      className="card-inner-title"
+    >
+       
+      Auto
+    </div>
+  </div>
+  <div
+    className="card-weight"
+  >
+    2.032 kg
+  </div>
+  <div
+    className="card-time"
+  >
+    CO2 / Jahr
+  </div>
+</div>
+`;

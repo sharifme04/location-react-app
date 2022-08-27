@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Form renders with empty props 1`] = `
+<div>
+  <nav
+    aria-label="breadcrumb"
+  >
+    <ol
+      className="breadcrumb"
+    >
+      <li
+        className="breadcrumb-item"
+      >
+        Rundum mobil
+      </li>
+      <li
+        className="breadcrumb-item"
+      >
+        Preis- und Umweltvergleich
+      </li>
+    </ol>
+  </nav>
+</div>
+`;

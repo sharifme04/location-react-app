@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Form renders with empty props 1`] = `
+<div
+  className="search-location"
+>
+  <div
+    className="card-title"
+  >
+    Wähle Deine Pendelroute 
+  </div>
+  <div>
+    <p
+      className="card-subtitle"
+    >
+      um zu sehen, wie viel CO2 Du mit VVS sparen kannst
+    </p>
+  </div>
+  <div
+    className="input-container"
+  >
+    <div
+      className="icons-column"
+    >
+      <svg
+        className="top-icon"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"
+        />
+      </svg>
+      <div
+        className="vertical-line"
+      />
+      <svg
+        className="bottom-icon"
+        fill="currentColor"
+        height={20}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width={20}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 32C167.67 32 96 96.51 96 176c0 128 160 304 160 304s160-176 160-304c0-79.49-71.67-144-160-144zm0 224a64 64 0 1164-64 64.07 64.07 0 01-64 64z"
+        />
+      </svg>
+    </div>
+    <div
+      className="input-group"
+    >
+      <input
+        className="input-style"
+        name="startPoint"
+        onFocus={[Function]}
+        placeholder="von : Ort, Haltestelle, Adresse, POI"
+      />
+      <input
+        className="input-style"
+        name="endPoint"
+        onFocus={[Function]}
+        placeholder="von : Ort, Haltestelle, Adresse, POI"
+      />
+    </div>
+    <div
+      className="right-arrow"
+    >
+      <div />
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M11.95 7.95l-1.414 1.414L8 6.828 8 20H6V6.828L3.465 9.364 2.05 7.95 7 3l4.95 4.95zm10 8.1L17 21l-4.95-4.95 1.414-1.414 2.537 2.536L16 4h2v13.172l2.536-2.536 1.414 1.414z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div />
+    </div>
+  </div>
+  <button
+    className="weiterBtn"
+    onClick={[Function]}
+  >
+    Weiter
+  </button>
+</div>
+`;
+
+exports[`snapshot Form renders with props 1`] = `
+<div
+  className="search-location"
+>
+  <div
+    className="card-title"
+  >
+    Wähle Deine Pendelroute 
+  </div>
+  <div>
+    <p
+      className="card-subtitle"
+    >
+      um zu sehen, wie viel CO2 Du mit VVS sparen kannst
+    </p>
+  </div>
+  <div
+    className="input-container"
+  >
+    <div
+      className="icons-column"
+    >
+      <svg
+        className="top-icon"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"
+        />
+      </svg>
+      <div
+        className="vertical-line"
+      />
+      <svg
+        className="bottom-icon"
+        fill="currentColor"
+        height={20}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width={20}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 32C167.67 32 96 96.51 96 176c0 128 160 304 160 304s160-176 160-304c0-79.49-71.67-144-160-144zm0 224a64 64 0 1164-64 64.07 64.07 0 01-64 64z"
+        />
+      </svg>
+    </div>
+    <div
+      className="input-group"
+    >
+      <input
+        className="input-style"
+        name="startPoint"
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="von : Ort, Haltestelle, Adresse, POI"
+      />
+      <input
+        className="input-style"
+        name="endPoint"
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="von : Ort, Haltestelle, Adresse, POI"
+      />
+    </div>
+    <div
+      className="right-arrow"
+    >
+      <div />
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M11.95 7.95l-1.414 1.414L8 6.828 8 20H6V6.828L3.465 9.364 2.05 7.95 7 3l4.95 4.95zm10 8.1L17 21l-4.95-4.95 1.414-1.414 2.537 2.536L16 4h2v13.172l2.536-2.536 1.414 1.414z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div />
+    </div>
+  </div>
+  <button
+    className="weiterBtn"
+    onClick={[Function]}
+  >
+    Weiter
+  </button>
+</div>
+`;
+
+exports[`snapshot Form renders with props data 1`] = `
+<div
+  className="search-location"
+>
+  <div
+    className="card-title"
+  >
+    Wähle Deine Pendelroute 
+  </div>
+  <div>
+    <p
+      className="card-subtitle"
+    >
+      um zu sehen, wie viel CO2 Du mit VVS sparen kannst
+    </p>
+  </div>
+  <div
+    className="input-container"
+  >
+    <div
+      className="icons-column"
+    >
+      <svg
+        className="top-icon"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"
+        />
+      </svg>
+      <div
+        className="vertical-line"
+      />
+      <svg
+        className="bottom-icon"
+        fill="currentColor"
+        height={20}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width={20}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 32C167.67 32 96 96.51 96 176c0 128 160 304 160 304s160-176 160-304c0-79.49-71.67-144-160-144zm0 224a64 64 0 1164-64 64.07 64.07 0 01-64 64z"
+        />
+      </svg>
+    </div>
+    <div
+      className="input-group"
+    >
+      <input
+        className="input-style"
+        name="startPoint"
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="von : Ort, Haltestelle, Adresse, POI"
+        value="stadtmitte, Berlin"
+      />
+      <input
+        className="input-style"
+        name="endPoint"
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="von : Ort, Haltestelle, Adresse, POI"
+        value="Tegel, Berlin"
+      />
+    </div>
+    <div
+      className="right-arrow"
+    >
+      <div />
+      <div>
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M11.95 7.95l-1.414 1.414L8 6.828 8 20H6V6.828L3.465 9.364 2.05 7.95 7 3l4.95 4.95zm10 8.1L17 21l-4.95-4.95 1.414-1.414 2.537 2.536L16 4h2v13.172l2.536-2.536 1.414 1.414z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div />
+    </div>
+  </div>
+  <button
+    className="weiterBtn"
+    onClick={[Function]}
+  >
+    Weiter
+  </button>
+</div>
+`;

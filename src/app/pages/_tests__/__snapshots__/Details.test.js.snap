@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot form renders 1`] = `
+<div>
+  <div
+    className="headerContainer"
+  >
+    <div>
+      <nav
+        aria-label="breadcrumb"
+      >
+        <ol
+          className="breadcrumb"
+        >
+          <li
+            className="breadcrumb-item"
+          >
+            Rundum mobil
+          </li>
+          <li
+            className="breadcrumb-item"
+          >
+            Preis- und Umweltvergleich
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <div>
+      <div>
+        <span
+          className="title"
+        >
+          Umweltrechner
+        </span>
+      </div>
+      <div
+        className="subtitle"
+      >
+        <span>
+          Penden
+        </span>
+        <span>
+          <a
+            className="link-subtitle"
+            href="#"
+          >
+            210 Tag
+          </a>
+           
+        </span>
+        <span>
+          mit
+        </span>
+        <span>
+          <a
+            className="link-subtitle"
+            href="#"
+          >
+            Miteklase
+          </a>
+           
+        </span>
+        <span>
+          von
+        </span>
+        <span>
+          <a
+            className="link-subtitle"
+            href="#"
+          >
+            Tam
+          </a>
+           
+        </span>
+        <span>
+          bis
+        </span>
+        <span>
+          <a
+            className="link-subtitle"
+            href="#"
+          >
+            Statmit
+          </a>
+           
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="bar-container"
+  >
+    <div
+      className="distance-bar"
+    >
+      <div
+        className="car"
+      >
+        <svg>
+          car-icon.svg
+        </svg>
+        <p>
+          24.1 km
+        </p>
+      </div>
+      <div
+        className="bus"
+      >
+        <svg>
+          bus-icon.svg
+        </svg>
+        <p>
+          24.8 km
+        </p>
+      </div>
+    </div>
+    <div
+      className="triangle-container"
+    >
+      <div
+        className="triangle"
+      />
+    </div>
+  </div>
+  <div
+    className="card-container"
+  >
+    <div
+      className="details-card-subtitle"
+    >
+      <div
+        className="custom-card-subtitle"
+      >
+        Auswirkungen auf die Umwelt
+      </div>
+      <div
+        className="custom-card-group"
+      >
+        <div
+          className="details-card details-card-custom-style1"
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+        >
+          <div
+            className="details-card-title"
+          >
+            <img
+              alt="logo-icon"
+              height="24"
+              src="car-icon.png"
+              width="24"
+            />
+            <div
+              className="card-inner-title"
+            >
+               
+              Auto
+            </div>
+          </div>
+          <div
+            className="card-weight"
+          >
+            2.032 kg
+          </div>
+          <div
+            className="card-time"
+          >
+            CO2 / Jahr
+          </div>
+        </div>
+        <div
+          className="details-card details-card-custom-style2"
+          style={
+            Object {
+              "backgroundColor": "#fc631e",
+            }
+          }
+        >
+          <div
+            className="details-card-title"
+          >
+            <img
+              alt="logo-icon"
+              height="24"
+              src="logo-icon.png"
+              width="24"
+            />
+            <div
+              className="card-inner-title"
+            >
+               
+              VVS Abo
+            </div>
+          </div>
+          <div
+            className="card-weight"
+          >
+            758 kg
+          </div>
+          <div
+            className="card-time"
+          >
+            CO2 / Jahr
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="details-card-subtitle"
+    >
+      <div
+        className="custom-card-subtitle"
+      >
+        Kosteneinschätzung für ein Jahr
+      </div>
+      <div
+        className="custom-card-group"
+      >
+        <div
+          className="details-card details-card-custom-style1"
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+        >
+          <div
+            className="details-card-title"
+          />
+        </div>
+        <div
+          className="details-card details-card-custom-style2"
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+        >
+          <div
+            className="details-card-title"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="next-step"
+  >
+    <p>
+      Wie entstehen diese Werte?
+    </p>
+  </div>
+  <div
+    className="card-layers"
+  >
+    <div>
+      <div
+        className="lower-square"
+      />
+      <div
+        className="upper-square"
+      />
+    </div>
+  </div>
+</div>
+`;
