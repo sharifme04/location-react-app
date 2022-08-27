@@ -1,7 +1,7 @@
 
 
 
-First  enter the root director of the project then install the `node modules` by run:
+First  enter to the root director of the project then install the `node modules` by run:
 
 ### `npm install`
 
